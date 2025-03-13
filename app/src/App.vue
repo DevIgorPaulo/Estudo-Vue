@@ -1,22 +1,36 @@
-<template>
-  <TheHeader v-if="showHeader"></TheHeader>
+<template>  
+    <div>
+      <TheHeader>
+        <template v-slot:title>Home</template>
+        <!-- <template v-slot:description>Area Incial</template> -->
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis doloribus sed architecto fugiat sint. Est qui quibusdam explicabo laudantium adipisci, asperiores quo veniam quisquam soluta. Quam aspernatur nesciunt ratione quia.
+      </TheHeader>
+    </div>
 </template>
 
 <script>
 import TheHeader from './components/TheHeader.vue';
 
+
 export default {
   name: 'App',
-  components: {
-    TheHeader
-  },
+  components: {TheHeader},
   data() {
     return {
-      showHeader: true,
-      firstName: "Cleber",
-      lastName: "Machado",
-      showName: true,
-      acessLevel: 'as'
+      esporte: 'Karate',      
+    }
+  },
+
+  watch: {
+    esporte(newValue, oldValue){
+      console.log(newValue)
+      console.log(oldValue)
+    },
+    user:{
+      handler(){
+        console.log("AJAX");
+      },
+      deep: true
     }
   }
 }
