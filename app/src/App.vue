@@ -1,18 +1,15 @@
 <template>
-  <AppProducts/>
-  <pre>
-    {{ $store.state.cart }}
-  </pre>
+  <img alt="Vue logo" src="./assets/logo.png">
+  <HelloWorld msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-
-import AppProducts from '@/components/Product/AppProducts.vue';
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'App',
   components: {
-    AppProducts
+    HelloWorld
   }
 }
 </script>
