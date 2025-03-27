@@ -1,0 +1,49 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Estudar javascript",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Estudar Vue",
+      "completed": false
+    },
+    {
+      "id": "3",
+      "title": "Estudar composition API",
+      "completed": false
+    },
+    {
+      "id": "695a",
+      "title": "casa",
+      "completed": false
+    },
+    {
+      "id": "81d7",
+      "title": "as",
+      "completed": false
+    },
+    {
+      "id": "827d",
+      "title": "sas",
+      "completed": false
+    },
+    {
+      "id": "8c8f",
+      "title": "sas",
+      "completed": false
+    },
+    {
+      "id": "545e",
+      "title": "sas",
+      "completed": false
+    },
+    {
+      "id": "7b28",
+      "title": "sas",
+      "completed": false
+    }
+  ]
+}
