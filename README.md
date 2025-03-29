@@ -1,8 +1,8 @@
 # Estudo-Vue
 ## projeto de To do
-- Para rodar o projeto faça:
+- Para rodar o projeto siga os passos:
 
-`cd app`
+entre no conjunto de arquivos: `cd app`
 
 para iniciar aplicação `yarn serve`
 
