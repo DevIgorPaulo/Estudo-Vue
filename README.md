@@ -10,4 +10,4 @@
 
     - Se divirta :smile:
 
-- ** Lembrando que é necessário realizar a instaçao das depêndencias com:** `npm install`
+- **Lembrando que é necessário realizar a instaçao das depêndencias com:** `npm install`
