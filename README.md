@@ -9,3 +9,5 @@
     - para iniciar API `json-serve --watch API/database.json`
 
     - Se divirta :smile:
+
+- ** Lembrando que é necessário realizar a instaçao das depêndencias com:** `npm install`
